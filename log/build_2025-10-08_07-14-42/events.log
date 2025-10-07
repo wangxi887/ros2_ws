@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000251] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000278] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000305] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.005327] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.006203] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/wsl2/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/wsl2/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/wsl2/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'wsl2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wsl2/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wsl2'), ('OLDPWD', '/home/wsl2/ros2_ws/src'), ('LESS', '-R'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ZSH', '/home/wsl2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('https_proxy', 'http://127.0.0.1:7897'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/wsl2/ros2_ws/install'), ('LOGNAME', 'wsl2'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/327205_interop'), ('NAME', 'thinkdifferent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/think/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/d/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Users/think/AppData/Local/Programs/mongosh:/mnt/d/java/bin:/mnt/d/MySQL/MySQL Server 8.0/bin:/mnt/d/FFmpeg/ffmpeg-7.0.2-essentials_build/bin:/mnt/d/Maven/apache-maven-3.9.10/bin:/mnt/d/java/jre/bin:/mnt/c/Users/think/node_global:/mnt/c/Users/think/AppData/Local/nvm:/mnt/d/Node/node.exe:/mnt/c/Users/think/AppData/Local/nvm/v22.17.1:/mnt/c/redis:/mnt/d/:/mnt/d/Trae/bin:/mnt/c/Users/think/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/think/bin/python.exe:/mnt/d/IDEA/IntelliJ IDEA 2025.1.1.1/bin:/mnt/c/Users/think/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/think/AppData/Local/Programs/mongosh/:/mnt/d/webstorm/WebStorm 2025.1.4.1/bin:/mnt/d/cursor/resources/app/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/wsl2/ros2_ws/install/my_package:/home/wsl2/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/wsl2/ros2_ws/build/cpp_pubsub'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('PYTHONPATH', '/home/wsl2/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/wsl2/ros2_ws/install/my_package:/home/wsl2/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.099108] (-) TimerEvent: {}
+[0.105248] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199227] (-) TimerEvent: {}
+[0.299613] (-) TimerEvent: {}
+[0.399948] (-) TimerEvent: {}
+[0.436616] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.500081] (-) TimerEvent: {}
+[0.600418] (-) TimerEvent: {}
+[0.700755] (-) TimerEvent: {}
+[0.705078] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.800868] (-) TimerEvent: {}
+[0.822571] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.826808] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.827014] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.827428] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.829869] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901001] (-) TimerEvent: {}
+[0.965409] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.970525] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.970755] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.971020] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.972325] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.001194] (-) TimerEvent: {}
+[1.068748] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.101305] (-) TimerEvent: {}
+[1.126142] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.201438] (-) TimerEvent: {}
+[1.301760] (-) TimerEvent: {}
+[1.304767] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.307330] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.312489] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.319386] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.328178] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.352886] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.354974] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.401881] (-) TimerEvent: {}
+[1.502198] (-) TimerEvent: {}
+[1.602510] (-) TimerEvent: {}
+[1.702830] (-) TimerEvent: {}
+[1.803159] (-) TimerEvent: {}
+[1.903492] (-) TimerEvent: {}
+[2.003787] (-) TimerEvent: {}
+[2.104099] (-) TimerEvent: {}
+[2.204374] (-) TimerEvent: {}
+[2.304659] (-) TimerEvent: {}
+[2.325541] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.404878] (-) TimerEvent: {}
+[2.505240] (-) TimerEvent: {}
+[2.605564] (-) TimerEvent: {}
+[2.706009] (-) TimerEvent: {}
+[2.806468] (-) TimerEvent: {}
+[2.906806] (-) TimerEvent: {}
+[3.007302] (-) TimerEvent: {}
+[3.107609] (-) TimerEvent: {}
+[3.208209] (-) TimerEvent: {}
+[3.308571] (-) TimerEvent: {}
+[3.408941] (-) TimerEvent: {}
+[3.509248] (-) TimerEvent: {}
+[3.551322] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.609495] (-) TimerEvent: {}
+[3.710082] (-) TimerEvent: {}
+[3.810457] (-) TimerEvent: {}
+[3.911033] (-) TimerEvent: {}
+[4.011321] (-) TimerEvent: {}
+[4.111616] (-) TimerEvent: {}
+[4.211908] (-) TimerEvent: {}
+[4.312306] (-) TimerEvent: {}
+[4.412716] (-) TimerEvent: {}
+[4.513060] (-) TimerEvent: {}
+[4.613418] (-) TimerEvent: {}
+[4.713804] (-) TimerEvent: {}
+[4.814097] (-) TimerEvent: {}
+[4.914424] (-) TimerEvent: {}
+[5.014820] (-) TimerEvent: {}
+[5.115281] (-) TimerEvent: {}
+[5.215638] (-) TimerEvent: {}
+[5.315939] (-) TimerEvent: {}
+[5.416294] (-) TimerEvent: {}
+[5.516844] (-) TimerEvent: {}
+[5.617451] (-) TimerEvent: {}
+[5.700123] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.704563] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.717591] (-) TimerEvent: {}
+[5.811489] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.811699] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.817681] (-) TimerEvent: {}
+[5.917335] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.917752] (-) TimerEvent: {}
+[5.918194] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.952562] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.002420] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.002551] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.002586] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.002883] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.003545] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.003596] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.004189] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.004964] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.012597] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[6.015538] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/wsl2/ros2_ws/build/cpp_pubsub\n'}
+[6.018158] (-) TimerEvent: {}
+[6.022018] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.023484] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[6.023537] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wsl2/ros2_ws/build/cpp_pubsub', '--', '-j16', '-l16'], 'cwd': '/home/wsl2/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'wsl2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wsl2/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wsl2'), ('OLDPWD', '/home/wsl2/ros2_ws/src'), ('LESS', '-R'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ZSH', '/home/wsl2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('https_proxy', 'http://127.0.0.1:7897'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/wsl2/ros2_ws/install'), ('LOGNAME', 'wsl2'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/327205_interop'), ('NAME', 'thinkdifferent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/think/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/d/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Users/think/AppData/Local/Programs/mongosh:/mnt/d/java/bin:/mnt/d/MySQL/MySQL Server 8.0/bin:/mnt/d/FFmpeg/ffmpeg-7.0.2-essentials_build/bin:/mnt/d/Maven/apache-maven-3.9.10/bin:/mnt/d/java/jre/bin:/mnt/c/Users/think/node_global:/mnt/c/Users/think/AppData/Local/nvm:/mnt/d/Node/node.exe:/mnt/c/Users/think/AppData/Local/nvm/v22.17.1:/mnt/c/redis:/mnt/d/:/mnt/d/Trae/bin:/mnt/c/Users/think/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/think/bin/python.exe:/mnt/d/IDEA/IntelliJ IDEA 2025.1.1.1/bin:/mnt/c/Users/think/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/think/AppData/Local/Programs/mongosh/:/mnt/d/webstorm/WebStorm 2025.1.4.1/bin:/mnt/d/cursor/resources/app/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/wsl2/ros2_ws/install/my_package:/home/wsl2/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/wsl2/ros2_ws/build/cpp_pubsub'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('PYTHONPATH', '/home/wsl2/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/wsl2/ros2_ws/install/my_package:/home/wsl2/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[6.055729] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[0m\n'}
+[6.056432] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o\x1b[0m\n'}
+[6.118344] (-) TimerEvent: {}
+[6.218684] (-) TimerEvent: {}
+[6.319013] (-) TimerEvent: {}
+[6.419382] (-) TimerEvent: {}
+[6.519688] (-) TimerEvent: {}
+[6.620092] (-) TimerEvent: {}
+[6.720411] (-) TimerEvent: {}
+[6.820836] (-) TimerEvent: {}
+[6.921208] (-) TimerEvent: {}
+[7.021521] (-) TimerEvent: {}
+[7.121890] (-) TimerEvent: {}
+[7.222290] (-) TimerEvent: {}
+[7.322657] (-) TimerEvent: {}
+[7.423050] (-) TimerEvent: {}
+[7.523406] (-) TimerEvent: {}
+[7.623787] (-) TimerEvent: {}
+[7.724195] (-) TimerEvent: {}
+[7.824625] (-) TimerEvent: {}
+[7.924974] (-) TimerEvent: {}
+[8.025437] (-) TimerEvent: {}
+[8.125848] (-) TimerEvent: {}
+[8.226189] (-) TimerEvent: {}
+[8.326529] (-) TimerEvent: {}
+[8.426927] (-) TimerEvent: {}
+[8.527432] (-) TimerEvent: {}
+[8.627875] (-) TimerEvent: {}
+[8.728297] (-) TimerEvent: {}
+[8.828628] (-) TimerEvent: {}
+[8.929010] (-) TimerEvent: {}
+[9.029372] (-) TimerEvent: {}
+[9.129735] (-) TimerEvent: {}
+[9.214958] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[9.229942] (-) TimerEvent: {}
+[9.330389] (-) TimerEvent: {}
+[9.430708] (-) TimerEvent: {}
+[9.450157] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[9.530877] (-) TimerEvent: {}
+[9.631191] (-) TimerEvent: {}
+[9.732709] (-) TimerEvent: {}
+[9.833225] (-) TimerEvent: {}
+[9.933720] (-) TimerEvent: {}
+[10.034177] (-) TimerEvent: {}
+[10.134641] (-) TimerEvent: {}
+[10.235064] (-) TimerEvent: {}
+[10.335425] (-) TimerEvent: {}
+[10.435798] (-) TimerEvent: {}
+[10.536087] (-) TimerEvent: {}
+[10.636483] (-) TimerEvent: {}
+[10.736806] (-) TimerEvent: {}
+[10.837149] (-) TimerEvent: {}
+[10.937473] (-) TimerEvent: {}
+[11.037853] (-) TimerEvent: {}
+[11.138352] (-) TimerEvent: {}
+[11.238728] (-) TimerEvent: {}
+[11.339274] (-) TimerEvent: {}
+[11.439726] (-) TimerEvent: {}
+[11.540117] (-) TimerEvent: {}
+[11.640461] (-) TimerEvent: {}
+[11.725635] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[11.740577] (-) TimerEvent: {}
+[11.840926] (-) TimerEvent: {}
+[11.941544] (-) TimerEvent: {}
+[12.041967] (-) TimerEvent: {}
+[12.062396] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[12.070300] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[12.070786] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[12.077273] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wsl2/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/wsl2/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'wsl2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wsl2/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wsl2'), ('OLDPWD', '/home/wsl2/ros2_ws/src'), ('LESS', '-R'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ZSH', '/home/wsl2/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('https_proxy', 'http://127.0.0.1:7897'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/wsl2/ros2_ws/install'), ('LOGNAME', 'wsl2'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/327205_interop'), ('NAME', 'thinkdifferent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/think/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/d/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MongoDB/Server/8.0/bin:/mnt/c/Users/think/AppData/Local/Programs/mongosh:/mnt/d/java/bin:/mnt/d/MySQL/MySQL Server 8.0/bin:/mnt/d/FFmpeg/ffmpeg-7.0.2-essentials_build/bin:/mnt/d/Maven/apache-maven-3.9.10/bin:/mnt/d/java/jre/bin:/mnt/c/Users/think/node_global:/mnt/c/Users/think/AppData/Local/nvm:/mnt/d/Node/node.exe:/mnt/c/Users/think/AppData/Local/nvm/v22.17.1:/mnt/c/redis:/mnt/d/:/mnt/d/Trae/bin:/mnt/c/Users/think/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/think/bin/python.exe:/mnt/d/IDEA/IntelliJ IDEA 2025.1.1.1/bin:/mnt/c/Users/think/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/think/AppData/Local/Programs/mongosh/:/mnt/d/webstorm/WebStorm 2025.1.4.1/bin:/mnt/d/cursor/resources/app/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/wsl2/ros2_ws/install/my_package:/home/wsl2/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('PWD', '/home/wsl2/ros2_ws/build/cpp_pubsub'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('PYTHONPATH', '/home/wsl2/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/wsl2/ros2_ws/install/my_package:/home/wsl2/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[12.082211] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.082443] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[12.083170] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/wsl2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[12.083247] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[12.085994] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/wsl2/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[12.086235] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[12.086549] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[12.086696] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[12.086911] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[12.086986] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[12.087072] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[12.087119] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[12.087176] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[12.087363] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[12.087454] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[12.087491] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[12.087582] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[12.087740] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[12.087780] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[12.087809] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/wsl2/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[12.088916] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[12.099886] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[12.100495] (-) EventReactorShutdown: {}
